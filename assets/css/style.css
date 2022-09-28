@@ -1,8 +1,7 @@
 /* variables */
 :root{
- --primaryColor:rgb(151, 154, 166);
- --secondaryColor: rgb(160, 48, 170);
- --textColor:rgb(142, 27, 152);
+ --primaryColor: rgb(49, 47, 57);
+ --secondaryColor:  rgb(200, 50, 200);
 }
 /* For Mobile */
 /* @media screen and (min-width:768px) { */
@@ -14,7 +13,7 @@
  body{
       background-color: var(--primaryColor);
       font-family:sans-serif;
-      color: var(--textColor);
+      color: var(--secondaryColor);
  }
  header,footer{
       text-align: center;
@@ -22,6 +21,7 @@
  }
  header p{
       color:white;
+      margin-bottom: 25px;
  }
  pre{
       background-color: var(--secondaryColor);
@@ -35,6 +35,9 @@
  .cards{
       margin: 5px;
  }
+ .cards p{
+     margin-bottom: 10px;
+}
  .cards div{
       margin:10px;
       padding:10px;
@@ -46,6 +49,7 @@
  }
  fieldset{
       border: 2px dashed white; 
+      height:310px;
  }
  legend{
       text-align: center;
