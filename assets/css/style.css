@@ -1,0 +1,68 @@
+/* variables */
+:root{
+ --primaryColor:rgb(151, 154, 166);
+ --secondaryColor: rgb(160, 48, 170);
+ --textColor:rgb(142, 27, 152);
+}
+/* For Mobile */
+/* @media screen and (min-width:768px) { */
+ *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+ }
+ body{
+      background-color: var(--primaryColor);
+      font-family:sans-serif;
+      color: var(--textColor);
+ }
+ header,footer{
+      text-align: center;
+      margin: 5px 25px;
+ }
+ header p{
+      color:white;
+ }
+ pre{
+      background-color: var(--secondaryColor);
+      border: 1px black;
+      border-radius: 10px;
+ }
+ .card-container{
+      display: flex;
+      flex-wrap: wrap;
+ }
+ .cards{
+      margin: 5px;
+ }
+ .cards div{
+      margin:10px;
+      padding:10px;
+      width:90vw;
+ }
+ .cards h2{
+      border: 1px solid white;
+      border-radius: 10px;
+ }
+ fieldset{
+      border: 2px dashed white; 
+ }
+ legend{
+      text-align: center;
+ }
+ pre{
+      color: azure;
+ }
+/* } */
+/* For Tablet */
+@media screen and (min-width:850px){
+ .cards div{
+      width:45vw;
+ }
+}
+/* For Desktop */
+@media screen and (min-width:1200px){
+ .cards div{
+      width:30vw;
+ }
+}
