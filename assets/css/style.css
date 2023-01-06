@@ -79,6 +79,11 @@
      user-select: all;
    }
 
+.cards:hover{
+     box-shadow: inset 5px 5px 5px 8px
+     var(--secondaryColor), 0 0 15px
+     var(--secondaryColor);
+}
 /* For Tablet */
 @media screen and (min-width:850px){
  .cards div{
